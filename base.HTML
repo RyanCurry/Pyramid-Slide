@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<link type="text/css" href=styles.css rel="stylesheet">
+<title>Pyramid Slide</title>
 </head>
 
 
 <body>
     <header>
+        <h1>Pyramid Slide</h1>
+    </header>
+
+
+    <div id="SliderDiv">
         <form>
-            <select value="#">
+            Brick Symbol:
+            <select id="BrickCharSelect" value="#">
                 <option>#</option>
                 <option>@</option>
                 <option>X</option>
                 <option>$</option>
             </select>
+            How High?
             <input type="range" id="pyramidRange" min="1" max="20">
-        </form>
         <p id="PyramidHeight">10<p>
-    </header>
+        </form>
 
 
-    <div id="pyramid">
+
+        <div id="pyramid">
+        </div>
     </div>
 
     <footer>
